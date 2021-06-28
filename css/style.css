@@ -1,0 +1,125 @@
+@charset "utf-8";
+/*CSS DOC*/
+body{
+    background-color: white;
+}
+.heading{
+    display: flex;
+    background-color: black;
+    height: 150px;
+    width: 100%;
+}
+.heading h1{
+    color:rgb(202, 131, 0);
+    font-size: 50px;
+}
+.heading img{
+    margin-left: 400px;
+}
+nav{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+a:link{
+    text-decoration: none;
+    color: rgb(202, 131, 0);
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+nav ul{
+    font-size: 30px;
+}
+nav ul a{
+    border: 2px solid black;
+    margin: 2px;
+    padding: 10px 15px;
+    text-align: center;
+}
+#kl{
+    margin-left: 350px;
+}
+nav ul a:hover{
+    transform: scale(1.1);
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+}
+#io{
+    color:grey;
+}
+.f,.s,.t{
+    display: flex;
+}
+.f img,.s img,.t img{
+    height: 500px;
+    width: 500px;
+}
+.f1,.s1,.t1{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.f2,.s2,.t2{
+    margin-left: 80px;
+    margin-top: 30px;
+}
+footer{
+    height:300px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    font-family: calibri;
+}
+footer{
+    background-color: black;
+    opacity: 0.9;
+    margin-top: 10px;
+}
+footer p:nth-child(1){
+    font-size:30px;
+    font-weight: bold;
+    color:white;
+    line-height: 10px;
+}
+footer p:nth-child(2),footer p:nth-child(3){
+    font-size: 20px;
+    color: white;
+    width:600px;
+    text-align: center;
+}
+.social-icons a{
+    width:40px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color :white;
+    margin:20px 10px;
+    border-radius: 50%;
+}
+.social-icons{
+    display: flex;
+}
+.copyright{
+    color: black;
+    font-size:15px;
+}
+.social-icons i{
+    color:#000000;
+
+}
+.social-icons a:hover{
+    background-color:grey;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    transition: all ease 0.5s;
+}
+.social-icons a:hover i{
+    color:black;
+    transition: all ease 0.5s;
+}
